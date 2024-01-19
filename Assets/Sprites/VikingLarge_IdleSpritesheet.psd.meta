@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c90707bae0f42844b91a95367f38637
+guid: 9832d4cc864a52443a4e96b8fd027de6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 69
+  spritePixelsToUnits: 139
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -81,7 +81,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 12
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walking_Spritesheet_0
+      name: VikingLarge_IdleSpritesheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 70
-        height: 70
+        width: 140
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,41 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f6f950f21927a7409b0591e4e08cf9b
-      internalID: 163718286
+      spriteID: fd43f43fb467d5442a90860cab3276ce
+      internalID: 1148476648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking_Spritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6dd5040df2349646a5d6c34aef5f4df
-      internalID: 1244721627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walking_Spritesheet_2
+      name: VikingLarge_IdleSpritesheet_1
       rect:
         serializedVersion: 2
         x: 140
         y: 0
-        width: 70
-        height: 70
+        width: 140
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,41 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccf854a6d960dd9428def7cf27579495
-      internalID: -1964429455
+      spriteID: fb767fa51969dc24fa560287140405fd
+      internalID: 642948176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking_Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41e33b82038788b4bb0a8624375b2e63
-      internalID: -214642592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walking_Spritesheet_4
+      name: VikingLarge_IdleSpritesheet_2
       rect:
         serializedVersion: 2
         x: 280
         y: 0
-        width: 70
-        height: 70
+        width: 140
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,41 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1decfa3bde75f1844acbe4c7d6dcd9b9
-      internalID: -1997373463
+      spriteID: a0638ab1358b18b478d4384c4aa0ad3b
+      internalID: 2139786358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking_Spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 0
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03b06a5da4a1810419a9ac4c85081830
-      internalID: 1663445983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walking_Spritesheet_6
+      name: VikingLarge_IdleSpritesheet_3
       rect:
         serializedVersion: 2
         x: 420
         y: 0
-        width: 70
-        height: 70
+        width: 140
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 597e4a8ad240a294f87ebad3d55eacbd
-      internalID: -1553440134
+      spriteID: 1fb11b9cd6d7075429e79e28d5acad53
+      internalID: 33149511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking_Spritesheet_7
+      name: VikingLarge_IdleSpritesheet_4
       rect:
         serializedVersion: 2
-        x: 490
+        x: 560
         y: 0
-        width: 70
-        height: 70
+        width: 140
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +203,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61c5f7410ba1d3e49b1c4c4c7368f391
-      internalID: 4848148
+      spriteID: 619b7f3c194d4ac45aabdeb65dd9d5fa
+      internalID: 257485307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingLarge_IdleSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840fb5f8c9628ef4185fc60bd9804cdf
+      internalID: -67636740
       vertices: []
       indices: 
       edges: []
@@ -283,14 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Walking_Spritesheet_0: 163718286
-      Walking_Spritesheet_1: 1244721627
-      Walking_Spritesheet_2: -1964429455
-      Walking_Spritesheet_3: -214642592
-      Walking_Spritesheet_4: -1997373463
-      Walking_Spritesheet_5: 1663445983
-      Walking_Spritesheet_6: -1553440134
-      Walking_Spritesheet_7: 4848148
+      VikingLarge_IdleSpritesheet_0: 1148476648
+      VikingLarge_IdleSpritesheet_1: 642948176
+      VikingLarge_IdleSpritesheet_2: 2139786358
+      VikingLarge_IdleSpritesheet_3: 33149511
+      VikingLarge_IdleSpritesheet_4: 257485307
+      VikingLarge_IdleSpritesheet_5: -67636740
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1
